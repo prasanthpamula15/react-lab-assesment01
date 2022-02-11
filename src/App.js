@@ -86,7 +86,7 @@ function App() {
         <CountdownCircleTimer
           isPlaying
           duration={actual}
-          colors={[["#004777", 0.33], ["#F7B801", 0.33], ["#A30000"]]}
+          colors={["#004777"]}
           initialRemainingTime={remainingTime % 60}
           onComplete={()=> ({shouldRepeat:true,delay:1})}
         >
